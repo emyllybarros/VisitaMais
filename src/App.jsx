@@ -69,7 +69,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router>
+        <Router basename="/VisitaMais">
           <NavigationTracker />
           <AuthenticatedApp />
         </Router>
