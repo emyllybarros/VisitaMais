@@ -1,0 +1,26 @@
+{
+  "name": "ProjecaoVisita",
+  "type": "object",
+  "properties": {
+    "competencia": {
+      "type": "string",
+      "description": "Compet\u00eancia (formato MM/YYYY)"
+    },
+    "quantidade_projetada": {
+      "type": "integer",
+      "description": "Quantidade de visitas projetadas para o m\u00eas"
+    },
+    "mes": {
+      "type": "integer",
+      "description": "N\u00famero do m\u00eas (1-12)"
+    },
+    "ano": {
+      "type": "integer",
+      "description": "Ano da proje\u00e7\u00e3o"
+    }
+  },
+  "required": [
+    "competencia",
+    "quantidade_projetada"
+  ]
+}

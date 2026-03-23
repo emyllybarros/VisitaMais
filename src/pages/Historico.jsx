@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Cliente } from "@/entities/Cliente";
-import { Visita } from "@/entities/Visita";
+import { Cliente } from "@/entities/Cliente.js";
+import { Visita } from "@/entities/Visita.js";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
